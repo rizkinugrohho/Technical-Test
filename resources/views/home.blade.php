@@ -20,32 +20,6 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{ asset('/landing-page/css/styles.css') }}" rel="stylesheet" />
     <link href="{{ asset('/landing-page/css/main.css') }}" rel="stylesheet" />
-    <style>
-        .client-logo-container {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-        }
-        .client-logo-container img {
-            scroll-snap-align: start;
-            flex: 0 0 auto;
-            max-width: 100px; /* Adjust as needed */
-            height: auto;
-        }
-        .client-logo-container::-webkit-scrollbar {
-            display: none; /* Optional: hide the scrollbar */
-        }
-        @media (min-width: 768px) {
-            .client-logo-container img {
-                max-width: 150px; /* Adjust as needed */
-            }
-        }
-        @media (min-width: 992px) {
-            .client-logo-container img {
-                max-width: 140px; /* Adjust as needed */
-            }
-        }
-    </style>
 </head>
 
 <body>

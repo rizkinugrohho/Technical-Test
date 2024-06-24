@@ -1240,14 +1240,6 @@ section,
   }
 }
 
-@media (min-width: 992px) {
-  .services .col-lg-3 {
-    max-width: 25%;
-    flex: 0 0 25%;
-  }
-}
-
-
 
 /*--------------------------------------------------------------
 # Call To Action Section
@@ -1544,9 +1536,8 @@ section,
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing {
-  --background-color: #fffffF;
+  --background-color: #ffffff;
 }
-
 
 .pricing .pricing-item {
   background-color: #FDFDFD;
@@ -1614,7 +1605,6 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
 }
 
-
 .pricing .buy-btn {
   color: #000000;
   background-color: #87BBD1;
@@ -1630,7 +1620,6 @@ section,
   width: 100%;
   text-align: center;
 }
-
 
 .pricing .buy-btn:hover {
   background: #2D6075;
@@ -1666,6 +1655,32 @@ section,
     margin: 0 auto 30px auto;
   }
 }
+
+@media (max-width: 767.98px) {
+    #pricing .container {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 0 15px; /* optional, to add some padding */
+    }
+
+    #pricing .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #pricing .col-lg-3 {
+        flex: 0 0 auto;
+        width: 80%; /* Adjust this value as needed */
+        margin-right: 15px; /* Optional: space between items */
+    }
+
+    /* Pastikan elemen .card1 tetap tampil seperti biasa */
+    #pricing .card1 {
+        flex: 1 1 100%;
+        white-space: normal;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials Section
