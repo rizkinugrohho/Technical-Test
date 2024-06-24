@@ -18,7 +18,7 @@
 
 ![4](https://github.com/rizkinugrohho/Technical-Test/assets/36374356/8e5f13a2-0ad3-48a8-8d48-4400ecafc4b4)
 
-![5](https://github.com/rizkinugrohho/Technical-Test/assets/36374356/618ced88-0956-47f9-80dc-67c6b9381bb7)
+![8](https://github.com/rizkinugrohho/Technical-Test/assets/36374356/a2431ce5-4a4a-437c-9d34-fb19126ad41d)
 
 ![6](https://github.com/rizkinugrohho/Technical-Test/assets/36374356/e66630b8-7722-41ef-b69a-328e6c0d1ea5)
 
