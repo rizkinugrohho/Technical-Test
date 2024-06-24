@@ -1213,7 +1213,7 @@ section,
 }
 
 .services .service-item h5 a {
-  color: #C19D6C;
+  color: #000000;
   transition: ease-in-out 0.3s;
 }
 
@@ -1228,8 +1228,8 @@ section,
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.services .service-item:hover h4 a {
-  color: var(--accent-color);
+.services .service-item:hover h5 a {
+  color: #C19D6C;
 }
 
 /* Additional CSS for responsive layout */
