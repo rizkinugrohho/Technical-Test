@@ -16,7 +16,7 @@
                 <div class="card service-item position-relative" style="width: 100%;">
                     <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
                         <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
                         <p class="card-text">Presenter Televisi & Komika</p>
                     </div>
@@ -27,7 +27,7 @@
                 <div class="card service-item position-relative" style="width: 100%;">
                     <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
                         <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
                         <p class="card-text">Presenter Televisi & Komika</p>
                     </div>
@@ -38,7 +38,7 @@
                 <div class="card service-item position-relative" style="width: 100%;">
                     <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
                         <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
                         <p class="card-text">Presenter Televisi & Komika</p>
                     </div>
@@ -49,7 +49,7 @@
                 <div class="card service-item position-relative" style="width: 100%;">
                     <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
                         <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
                         <p class="card-text">Presenter Televisi & Komika</p>
                     </div>
