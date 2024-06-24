@@ -20,6 +20,32 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{ asset('/landing-page/css/styles.css') }}" rel="stylesheet" />
     <link href="{{ asset('/landing-page/css/main.css') }}" rel="stylesheet" />
+    <style>
+        .client-logo-container {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+        .client-logo-container img {
+            scroll-snap-align: start;
+            flex: 0 0 auto;
+            max-width: 100px; /* Adjust as needed */
+            height: auto;
+        }
+        .client-logo-container::-webkit-scrollbar {
+            display: none; /* Optional: hide the scrollbar */
+        }
+        @media (min-width: 768px) {
+            .client-logo-container img {
+                max-width: 150px; /* Adjust as needed */
+            }
+        }
+        @media (min-width: 992px) {
+            .client-logo-container img {
+                max-width: 140px; /* Adjust as needed */
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -64,24 +90,20 @@
     </header>
     <header class="bg-darkgrey py-5 h-100">
         <div class="container px-4">
-            <div class="row gx-2 justify-content-center">
+            <div class="row gx-4 justify-content-center">
                 <div class="col-lg-10">
                     <div class="text-center">
-                        <h1 class="display-10 fw-bolder text-black">Telah Dipercaya oleh 10.000+ Profesional User dari
-                        </h1>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center pt-4">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/IEG.png" alt="IEG" class="img-fluid">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/indo.png" alt="Indo" class="img-fluid">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Sctv.png" alt="Sctv" class="img-fluid">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Emtek.png" alt="Emtek" class="img-fluid">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Sicepat.png" alt="Sicepat" class="img-fluid">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/IdcloudHost.png" alt="IdcloudHost" class="img-fluid">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Adirect.png" alt="Adirect" class="img-fluid">
-                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Volta.png" alt="Volta" class="img-fluid">
+                        <h1 class="display-10 fw-bolder text-black">Telah Dipercaya oleh 10.000+ Profesional User dari</h1>
+                        <div class="client-logo-container d-flex d-sm-flex justify-content-sm-center pt-4">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/IEG.png" alt="IEG">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/indo.png" alt="Indo">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Sctv.png" alt="Sctv">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Emtek.png" alt="Emtek">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Sicepat.png" alt="Sicepat">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/IdcloudHost.png" alt="IdcloudHost">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Adirect.png" alt="Adirect">
+                            <img class="col-xl-2 col-md-3 col-6 client-logo" src="/landing-page/assets/user/Volta.png" alt="Volta">
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
