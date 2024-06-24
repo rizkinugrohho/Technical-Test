@@ -33,14 +33,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#!">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Benefit</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Paket</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Kelas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Kontak Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#content1">Benefit</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Paket</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Kelas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Kontak Kami</a></li>
                 </ul>
                 <div class="btn-container">
-                    <a class="btn btn-brown btn-md px-3 me-sm-1" href="#features">Ajukan Demo</a>
-                    <a class="btn btn-whitebrown btn-md px-5 me-sm-3" href="#features">Masuk</a>
+                    <a class="btn btn-brown btn-md px-3 me-sm-1" href="#footer">Ajukan Demo</a>
+                    <a class="btn btn-whitebrown btn-md px-5 me-sm-3" href="#!">Masuk</a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
                         <p class="lead text-white mb-4">Semua solusi untuk mempermudah Training dan Upskilling karyawan
                             di perusahaan Anda</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <a class="btn btn-brown btn-lg px-5 me-sm-3" href="#features">Ajukan Demo</a>
+                            <a class="btn btn-brown btn-lg px-5 me-sm-3" href="#footer">Ajukan Demo</a>
                         </div>
                     </div>
                 </div>
