@@ -9,10 +9,10 @@
     </div><!-- End Section Title -->
 
     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-        <a class="btn btn-brown btn-lg px-4 me-sm-0" href="#LMS">LMS</a>
-        <a class="btn btn-whitebrown btn-lg px-3 me-sm-0" href="#LMS">Features</a>
-        <a class="btn btn-whitebrown btn-lg px-3 me-sm-0" href="#LMS">Vide Learning + Live Webinar</a>
-        <a class="btn btn-whitebrown btn-lg px-3 me-sm-0" href="#LMS">Inquiry Learning</a>
+        <a class="btn btn-whitebrown1 btn-lg px-4 me-sm-0" href="#LMS">LMS</a>
+        <a class="btn btn-whitebrown1 btn-lg px-3 me-sm-0" href="#LMS">Features</a>
+        <a class="btn btn-whitebrown1 btn-lg px-3 me-sm-0" href="#LMS">Vide Learning + Live Webinar</a>
+        <a class="btn btn-whitebrown1 btn-lg px-3 me-sm-0" href="#LMS">Inquiry Learning</a>
     </div>
 
     <!-- Page Content-->
