@@ -1212,8 +1212,8 @@ section,
   font-size: 20px;
 }
 
-.services .service-item h4 a {
-  color: var(--heading-color);
+.services .service-item h5 a {
+  color: #C19D6C;
   transition: ease-in-out 0.3s;
 }
 
