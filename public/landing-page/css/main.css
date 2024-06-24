@@ -1547,11 +1547,13 @@ section,
   border-top-right-radius: 20px;
   border: 0.5px solid #CCCCCC;
   color:#8A8A8A;
+  transition: all ease-in-out 0.4s;
 }
 
 .pricing .pricing-item:hover {
   background: #E0EFF5;
   color: #000000;
+  transform: translateY(-20px);
 }
 
 .pricing h3 {
