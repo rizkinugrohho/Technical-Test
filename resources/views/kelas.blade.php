@@ -8,6 +8,12 @@
             profesional bersama tim video profesional untuk menghasilkan video dengan kualitas tinggi</p>
     </div><!-- End Section Title -->
 
+    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center py-4">
+        <a class="btn btn-whitebrown1 btn-lg px-4 me-sm-0" href="#services">Kelas.com</a>
+        <a class="btn btn-whitebrown1 btn-lg px-3 me-sm-0" href="#services">Kelas.work</a>
+        <a class="btn btn-whitebrown1 btn-lg px-3 me-sm-0" href="#services">Bootcamp</a>
+    </div>
+
     <div class="container">
 
         <div class="row gy-4">
