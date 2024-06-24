@@ -1,4 +1,4 @@
-### Installasi
+### Installasi Menggunakan Laravel 10
 1. Unduh proyek (atau kloning menggunakan GIT)
 2. Salin `.env.example` ke `.env` dan konfigurasikan kredensial database
 3. Navigasikan ke direktori root proyek menggunakan terminal
