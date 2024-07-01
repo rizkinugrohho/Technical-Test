@@ -2,7 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WatchTimeController;
+use App\Http\Controllers\WatchDurationController;
+use App\Http\Controllers\MentorController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/watch-time', [WatchTimeController::class, 'recordWatchTime'])->middleware('check.subscription');
-Route::get('/mentor-earnings', [WatchTimeController::class, 'calculateMentorEarnings']);
+Route::post('/watch-duration', [WatchDurationController::class, 'store']);
+Route::get('/mentor-earnings', [MentorController::class, 'calculateEarnings']);
+

@@ -5,15 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class WatchTime extends Model
+// app/Models/WatchDuration.php
+class WatchDuration extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'user_id',
-        'class_id',
-        'watch_time',
-    ];
+    protected $fillable = ['user_id', 'class_id', 'duration'];
 
     public function user()
     {
@@ -22,6 +19,7 @@ class WatchTime extends Model
 
     public function class()
     {
-        return $this->belongsTo(ClassModel::class);
+        return $this->belongsTo(ClassModel::class, 'class_id', 'id'); // Sesuaikan dengan foreign key yang benar
     }
 }
+

@@ -20,31 +20,43 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{ asset('/landing-page/css/styles.css') }}" rel="stylesheet" />
     <link href="{{ asset('/landing-page/css/main.css') }}" rel="stylesheet" />
+    <link href="{{ asset('/landing-page/css/style.css') }}" rel="stylesheet" />
 </head>
 
 <body>
     <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-white">
-        <div class="container px-5">
-            <a class="navbar-brand" href="#!">
-                <img src="/landing-page/assets/logo.svg" alt="Kelas.com">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white">
+            <img src="/landing-page/assets/logo.svg" alt="Kelas.com">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link fw-bolder" href="#!">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bolder" href="#content1">Benefit</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bolder" href="#pricing">Paket</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bolder" href="#services">Kelas</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bolder" href="#footer">Kontak Kami</a></li>
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="#content1">Benefit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="#pricing">Paket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="#services">Kelas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="#footer">Kontak Kami</a>
+                    </li>
                 </ul>
-                <div class="btn-container">
-                    <a class="btn btn-brown btn-md px-3 me-sm-1" href="#footer">Ajukan Demo</a>
-                    <a class="btn btn-whitebrown btn-md px-5 me-sm-3" href="#!">Masuk</a>
+                <div>
+                    <a type="button" class="btn btn-brown btn-lg demo" href="#footer">Ajukan Demo</a>
+                    <a type="button" class="btn btn-whitebrown btn-lg" href="#">Masuk</a>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
     <!-- Header-->
     <header style="background-image: url('/landing-page/assets/background.png'); background-size: cover; height: 30rem;">
         <div class="container px-5 h-100 align-items-center justify-content-center">
@@ -163,6 +175,8 @@
     <script src="js/scripts.js"></script>
     <!-- Main JS File -->
     <script src="js/main.js"></script>
+    <!-- Index JS File -->
+    <script src="js/index.js"></script>
 </body>
 
 </html>

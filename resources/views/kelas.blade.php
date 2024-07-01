@@ -15,58 +15,110 @@
     </div>
 
     <div class="container">
+        <div id="carouselExampleDark2" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card service-item position-relative" style="width: 100%;">
+                                <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                                    <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
+                                    <p class="card-text">Presenter Televisi & Komika</p>
+                                </div>
+                            </div>
+                        </div><!-- End Service Item -->
 
-        <div class="row gy-4">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card service-item position-relative" style="width: 100%;">
+                                <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                                    <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
+                                    <p class="card-text">Presenter Televisi & Komika</p>
+                                </div>
+                            </div>
+                        </div><!-- End Service Item -->
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                <div class="card service-item position-relative" style="width: 100%;">
-                    <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
-                        <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
-                        <p class="card-text">Presenter Televisi & Komika</p>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card service-item position-relative" style="width: 100%;">
+                                <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                                    <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
+                                    <p class="card-text">Presenter Televisi & Komika</p>
+                                </div>
+                            </div>
+                        </div><!-- End Service Item -->
+
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <div class="card service-item position-relative" style="width: 100%;">
+                                <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                                    <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
+                                    <p class="card-text">Presenter Televisi & Komika</p>
+                                </div>
+                            </div>
+                        </div><!-- End Service Item -->
                     </div>
                 </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                <div class="card service-item position-relative" style="width: 100%;">
-                    <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
-                        <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
-                        <p class="card-text">Presenter Televisi & Komika</p>
+                
+                <div class="carousel-item" data-bs-interval="10000">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <div class="card service-item position-relative" style="width: 100%;">
+                                <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                                    <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
+                                    <p class="card-text">Presenter Televisi & Komika</p>
+                                </div>
+                            </div>
+                        </div><!-- End Service Item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <div class="card service-item position-relative" style="width: 100%;">
+                                <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                                    <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
+                                    <p class="card-text">Presenter Televisi & Komika</p>
+                                </div>
+                            </div>
+                        </div><!-- End Service Item -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <div class="card service-item position-relative" style="width: 100%;">
+                                <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
+                                    <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
+                                    <p class="card-text">Presenter Televisi & Komika</p>
+                                </div>
+                            </div>
+                        </div><!-- End Service Item -->
                     </div>
                 </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-                <div class="card service-item position-relative" style="width: 100%;">
-                    <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
-                        <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
-                        <p class="card-text">Presenter Televisi & Komika</p>
-                    </div>
+            </div>
+            
+            <div class="carousel-buttons">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-                <div class="card service-item position-relative" style="width: 100%;">
-                    <img src="/landing-page/assets/kelas.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="pcontent2"><a href="#" class="card-title stretched-link display-8 fw-bolder">Public Speaking : Merdeka<br> Dalam Bicara</a></h5>
-                        <p class="card-text pcontent2 ">Pandji Pragiwaksono</p>
-                        <p class="card-text">Presenter Televisi & Komika</p>
-                    </div>
+                <div class="carousel-prev-next">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-            </div><!-- End Service Item -->
-            <img src="/landing-page/assets/paginate.png" class="card-img-top" alt="...">
-
+            </div>
         </div>
-
     </div>
-
 </section><!-- /Services Section -->
 
 <style>

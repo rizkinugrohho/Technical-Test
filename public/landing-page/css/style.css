@@ -1,0 +1,653 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3, .harga-awal {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    line-height: 2.75;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 8px;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.navbar {
+    padding: 16px 150px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+}
+
+.demo {
+    background-color: #C19D6C;
+    border-color: #C19D6C;
+    color: white;
+}
+
+.demo:hover,  .masuk-active:hover {
+    background-color: #655339;
+    border-color: #655339;
+    color: white;
+}
+
+.masuk {
+    border: 2px solid #C19D6C;
+    color: #C19D6C;
+}
+
+.masuk:hover {
+    border: 2px solid #655339;
+    color: #655339;
+}
+
+.masuk-active {
+    background-color: #C19D6C;
+    border: 2px solid #C19D6C;
+    color: white;
+}
+
+.navbar-nav .nav-item {
+    margin: auto 6px;
+}
+
+.navbar-nav .nav-link {
+    color: #1A1A1A;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8a7b69;
+}
+
+.navbar-nav .nav-link.active {
+    color: #C19D6C;
+}
+
+nav .btn {
+    font-size: 16px;
+}
+
+.tingkat-performa {
+    position: relative;
+    margin-top: 60px;
+}
+
+.tingkat-performa .btn {
+    padding: 10px 50px;
+}
+
+.orang-kerja {
+    width: 100%;
+}
+
+.orang-kerja-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.orang-kerja-text p {
+    margin-bottom: 45px;
+}
+
+.orang-kerja-text .btn {
+    padding: auto 20px;
+}
+
+.profesional-user {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 150px;
+}
+
+.profesional-user h1 {
+    margin-bottom: 40px;
+}
+
+.profesional-user .profesional-user-biasa {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#beranda {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+#benefit, #paket, #kelas {
+    padding: 80px 150px;
+}
+
+#benefit .video-live .courses {
+    padding: 30px 150px;
+}
+
+#benefit .video-live .expert {
+    padding: 10px 150px;
+}
+
+#benefit, #paket {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.bagaimana, .lebih-dari, .tingkatkan-kualitas, .video-live .courses, .video-live .expert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bagaimana p, .lebih-dari p, .tingkatkan-kualitas p, .video-live .courses p, .video-live .expert p {
+    width: 825px;
+    margin-bottom: 35px;
+}
+
+.bagaimana div button, .lebih-dari div button {
+    margin: 5px;
+}
+
+.lms, .featured, .inquiry {
+    display: flex;
+    justify-content: center;
+    padding: 30px 60px;
+}
+
+.lms-img, .inquiry-img {
+    display: none;
+    margin-bottom: 5px;
+}
+
+.optimalkan-potensi, .inquiry-learning {
+    width: 550px;
+}
+
+.optimalkan-potensi h3, .inquiry-learning h3 {
+    background-color: #F6F6F6;
+    padding: 10px 20px;
+}
+
+.optimalkan-potensi div div, .inquiry-learning div div {
+    width: 470px;
+}
+
+.lms .optimalkan-potensi-img, .inquiry .inquiry-learning-img {
+    margin-left: 35px;
+    width: 560px;
+    height: 400px;
+}
+
+.featured .fitur-learning .select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    padding: 10px 12.5px;
+    cursor: pointer;
+    color: grey;
+    margin: 20px 0;
+}
+
+.featured .fitur-learning .body p{
+    width: 631px;
+}
+
+#paket h1 {
+    text-align: center;
+}
+
+#paket .paket-card {
+    padding: 30px 60px;
+}
+
+#paket .card-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+#paket .card-header h4, #paket .paket-enterprise .enterprise-title h4 {
+   margin-bottom: 0;
+   margin-left: 15px;
+}
+
+#paket .card-body {
+    padding-bottom: 10px;
+}
+
+#paket .card-body h2 {
+    font-weight: lighter;
+}
+
+#paket .card-body li {
+    display: flex;
+    align-items: center;
+}
+
+#paket .card-body img {
+    margin-right: 10px;
+}
+
+#paket .paket-card .card {
+    border-radius: 20px 20px 0 0;
+}
+
+#paket .paket-card .card-header, #paket .paket-card .card-footer {
+    background-color: transparent;
+}
+
+#paket .paket-card .starter, #paket .paket-card .basic {
+    background-color: #FDFDFD;
+}
+
+#paket .paket-card .pro {
+    background-color: #E0EFF5;
+}
+
+#paket .starter button, #paket .basic button {
+    background-color: #87BBD1;
+    color: #1B3A46;
+}
+
+#paket .pro button {
+    background-color: #2D6075;
+    color: white;
+}
+
+#paket .starter button:hover, #paket .basic button:hover,#paket .pro button:hover {
+    background-color: #655339;
+}
+
+#paket .card-footer {
+    border-top: 0;
+    padding-bottom: 25px;
+}
+
+hr {
+    border-top: 2px dashed black;
+    margin: 0;
+}
+
+#paket .paket-card .row {
+    margin-bottom: 20px;
+}
+
+#paket .paket-card .paket-enterprise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C19D6C;
+    border-radius: 0 0 20px 20px;
+}
+
+#paket .paket-card .paket-enterprise .enterprise-texts {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paket .paket-enterprise .enterprise-title {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#paket .paket-enterprise ul {
+    display: flex;
+    margin: 0;
+}
+
+#paket .paket-enterprise li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#paket .paket-enterprise ul img {
+    margin-right: 5px;
+}
+
+#paket .paket-enterprise .enterprise-btn {
+    padding-right: 30px;
+}
+
+#paket .paket-enterprise .enterprise-btn button {
+    color: #C19D6C;
+}
+
+#paket .paket-enterprise .enterprise-btn button:hover {
+    background-color: #655339;
+    border-color: #655339;
+}
+
+.carousel-inner {
+    margin-bottom: 20px;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-indicators {
+    position: unset;
+    display: block;
+    margin: 0;
+}
+
+.carousel-prev-next {
+    display: flex;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: unset;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    line-height: 0;
+}
+
+.carousel-control-next{
+    margin-left: 10px;
+}
+
+.kelas-com {
+    padding: 30px 60px;
+}
+
+.carousel .card-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.carousel .card-body h5 {
+    margin-bottom: 25px;
+}
+
+.carousel .card-body p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#kualitas {
+    padding: 64px;
+    background-image: linear-gradient(0deg, #EEE5D8F2, #EEE5D8F2), url(../images/tim.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kualitas .tingkatkan-kualitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 96px 200px;
+    background-color: #1A1A1A;
+}
+
+.footer-dll {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright p {
+    font-size: 14px;
+}
+
+.footer-dll div {
+    padding: 0 50px;
+}
+
+.footer-dll li, .card-footer span {
+    font-size: 16px;
+}
+
+.footer-dll .kontak img {
+    margin-right: 10px;
+}
+
+.profesional-user .profesional-user-carousel {
+    display: none;
+}
+
+@media only screen and (max-width: 1580px) {
+    .profesional-user .profesional-user-biasa {
+        display: none;
+    }
+    .profesional-user .profesional-user-carousel {
+        display: block;
+    }
+    .profesional-user .carousel-buttons {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1474px) {
+    li, .footer-dll li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1416px) {
+    .footer-dll div {
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 1355px) {
+    .carousel h3 {
+        font-size: 14px;
+    }
+    .carousel .card-body p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1266px) {
+    footer, .footer-dll {
+        display: block;
+    }
+    footer {
+        padding: 50px 20px;
+    }
+    .footer-dll div {
+        padding: 10px 0;
+    }
+    .footer-dll li, .copyright p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1261px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .btn, h3 {
+        font-size: 14px;
+    }
+    .bagaimana p {
+        width: 650px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 1251px) {
+    .carousel h3 {
+        font-size: 12px;
+    }
+    .carousel .card-body p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1156px) {
+    .navbar {
+        padding: 16px 75px;
+    }
+    #paket .paket-card .paket-enterprise,
+    #paket .paket-card .paket-enterprise .enterprise-texts,
+    #paket .paket-card .paket-enterprise ul {
+        display: block;
+    }
+    #paket .paket-card .paket-enterprise .enterprise-btn,
+    #paket .paket-card .paket-enterprise .enterprise-title {
+        padding: 15px;
+    }
+    #paket .paket-card .paket-enterprise ul {
+        padding: 0 15px;
+    }
+    #paket .paket-card .paket-enterprise li {
+        padding: 0;
+    }
+    .lms-img, .inquiry-img {
+        display: block;
+    }
+    .optimalkan-potensi-img, .inquiry-learning-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1017px) {
+    h1 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 11px;
+    }
+    .bagaimana p {
+        width: 600px;
+    }
+    .btn, h3 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #kelas .carousel-buttons, #kelas .carousel-indicators {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 897px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 827px) {
+    .navbar {
+        padding: 16px 25px;
+    }
+    #beranda .tingkat-performa {
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    .orang-kerja-text p, .bagaimana p, .lebih-dari p, .tingkatkan-kualitas p, .video-live .courses p, .video-live .expert p  {
+        width: 400px;
+    }
+    .orang-kerja {
+        width: 120%;
+    }
+    #beranda .profesional-user, #benefit, #paket, #kelas  {
+        padding: 40px 20px;
+    }
+    li {
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 796px) {
+    #beranda .profesional-user, #benefit, #paket, #kelas  {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+
+}
+
+@media only screen and (max-width: 360px) {
+    .optimalkan-potensi, .inquiry-learning {
+        width: 200px;
+    }
+    
+    .optimalkan-potensi h3, .inquiry-learning h3 {
+        background-color: #F6F6F6;
+        padding: 10px 20px;
+    }
+    
+    .optimalkan-potensi div div, .inquiry-learning div div {
+        width: 270px;
+    }
+    
+    .lms .optimalkan-potensi-img, .inquiry .inquiry-learning-img {
+        margin-left: 35px;
+        width: 260px;
+        height: 100px;
+    }
+
+    .orang-kerja-text p, .bagaimana p, .lebih-dari p, .tingkatkan-kualitas p, .video-live .courses p, .video-live .expert p  {
+        width: 300px;
+    }
+}

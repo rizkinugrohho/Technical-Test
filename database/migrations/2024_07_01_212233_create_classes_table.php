@@ -9,17 +9,17 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+    // database/migrations/xxxx_xx_xx_create_classes_table.php
     public function up()
-{
-    Schema::create('classes', function (Blueprint $table) {
-        $table->id();
-        $table->unsignedBigInteger('mentor_id');
-        $table->string('title');
-        $table->timestamps();
+    {
+        Schema::create('classes', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');
+            $table->foreignId('mentor_id')->constrained();
+            $table->timestamps();
+        });
+    }
 
-        $table->foreign('mentor_id')->references('id')->on('mentors')->onDelete('cascade');
-    });
-}
 
     /**
      * Reverse the migrations.

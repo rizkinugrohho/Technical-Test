@@ -9,14 +9,16 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+    // database/migrations/xxxx_xx_xx_create_mentors_table.php
     public function up()
-{
-    Schema::create('mentors', function (Blueprint $table) {
-        $table->id();
-        $table->string('name');
-        $table->timestamps();
-    });
-}
+    {
+        Schema::create('mentors', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->timestamps();
+        });
+    }
+
 
     /**
      * Reverse the migrations.
