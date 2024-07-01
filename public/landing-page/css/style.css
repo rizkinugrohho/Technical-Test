@@ -651,3 +651,25 @@ footer {
         width: 300px;
     }
 }
+
+.carousel-control-prev svg, .carousel-control-next svg {
+    width: 24px; /* Sesuaikan ukuran jika diperlukan */
+    height: 24px; /* Sesuaikan ukuran jika diperlukan */
+    fill: #66523B; /* Warna default sebelum di-klik */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background: none; /* Hapus latar belakang default */
+    border: none; /* Hapus border default */
+    padding: 0; /* Hapus padding default */
+}
+
+.carousel-prev-next {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Tambahkan gaya hover untuk mengganti warna ikon */
+.carousel-control-prev:hover svg, .carousel-control-next:hover svg {
+    fill: #C19D6C; /* Warna saat di-hover */
+}
